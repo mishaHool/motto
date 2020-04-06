@@ -1,0 +1,919 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    background-image: url(img/back.png);
+    height: 920px;
+    margin: auto;
+    background-repeat: no-repeat;
+    width: 1651px;
+    margin-top: -660px;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+.main-head{
+    width: 960px;
+    height: 1000px;
+    margin: auto;
+    background-image: url('img/map.png');
+    background-repeat: no-repeat;
+    background-position: 0 330px;
+    margin-top: 350px;
+    position: relative;
+    border-top: 1px solid red;
+    max-width: 960px;
+}
+
+.moto4you{
+    color: #ffffff;
+    font-family: "Oswald Stencil";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42.85px;
+    letter-spacing: 1.4px;
+    border-bottom: 1px solid red;
+}
+.fromsw{
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    display: block;
+    margin-top: -2px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    border-top: 1px solid red;
+    width: 187px;
+}
+
+
+.mail-top{
+    color: white;
+    font-family:'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: -8px;
+    line-height: 24px;
+    text-decoration: underline;
+}
+.bott-left-head{
+    display: block;
+    margin-top: 228px;
+    color: white;
+    margin-left: -188px;
+}
+.topper-txt-head-left{
+    width: 303px;
+    height: 24px;
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 65.64px;
+    text-transform: uppercase;
+}
+.txt-head-left{
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80.47px;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+.zhelezo{
+    color: red;
+    font-family: "Raleway - Extra Bold";
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80.47px;
+    text-transform: uppercase;
+    display: flex;
+    margin-top: -28px;
+}
+.button-top{
+    color: white;
+    width: 167px;
+    height: 62px;
+    background-color: #cc0000;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Raleway - Black";
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -7px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.top-head{
+    margin-top: 326px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-right-head{
+    color: #ffffff;
+    font-family: "Raleway - Extra Bold";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.bike{
+    background-image: url('img/bike.png');
+    width: 791px;
+    height: 483px;
+    position: absolute;
+    z-index: 100000000000000000000;
+    top: 549px;
+    right: 93px;
+}
+.mid-head{
+    margin-top: 170px;
+}
+ .numO{
+    width: 61px;
+    height: 61px;
+    background-color: #cc0000;
+    color: white;
+    font-family: "DIN Pro - Black";
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 67.11px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.fst-block{
+    width: 1651px;
+    margin: auto;
+    height: 900px;
+    margin-top: 100px;
+    max-width: 490px;
+}
+.main-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.txt-one{
+    font-family: "Raleway - Black";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.85px;
+    text-transform: uppercase;
+    margin-left: 18px;
+}
+.title-one{
+    display: flex;
+}
+.photo-fst{
+    width: 300px;
+    height: 180px;
+    background-image: url('img/bikeInBlockOne.png');
+    margin-right: 20px;
+}
+.three-photo{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.photo-sec{
+    width: 300px;
+    height: 180px;
+    background-image: url('img/moto.png');
+    margin-right: 20px;
+}
+.rect{
+    background-image: url('img/rect.png');
+    width: 290px;
+    height: 170px;
+    border-top: 1px solid red;
+    border-left: 1px solid red;
+    background-repeat: no-repeat;
+    margin-left: 4px;
+}
+.photo-thr{
+    width: 300px;
+    height: 180px;
+    background-image: url('img/timer.png');
+    margin-right: 20px;
+}
+.bold{
+    font-family: "Raleway - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 43px;
+}
+.fst-photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sec-photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.thr-photo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.und-photo-txt{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.sec-photo .bold{
+    margin-left: 0;
+}
+.thr-photo .bold{
+    margin-left: -10px;
+}
+.txtO{
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 107px;
+}
+
+/* @media(max-width: 490px){
+    .main-head{
+        margin-right: 0px;
+    }
+    .main-head{
+        max-width: 490px;
+    }
+} */
+.sec-block{
+    width: 1651px;
+    margin: auto;
+    height: 775px;
+    background-image: url('img/bikeThr.png');
+}
+.main-sec{
+    width: 960px;
+    margin: auto;
+    height: 775px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-title{
+    display: flex;
+    margin-top: -280px;
+    margin-left: 110px;
+}
+.txt-sec{
+    color: #ffffff;
+    font-family: "Raleway - Black";
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 33.85px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.num{
+    color: #ffffff;
+    font-family: "DIN Pro - Black";
+    font-size: 33px;
+    font-weight: 400;
+    line-height: 67.11px;
+    text-transform: uppercase;
+
+}
+.txt-moto{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+.sec-column-form{
+    margin-left: 350px;
+    margin-top: -440px;
+}
+.text-class-moto{
+    display: flex;
+}
+.white{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+}
+.form select{
+    width: 310px;
+    height: 44px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+.butt-form{
+    color: #ffffff;
+    font-family: "Raleway - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 310px;
+    height: 88px;
+    background-color: #cc0000;
+    background-image: url('img/shest.png');
+    background-repeat: no-repeat;
+    background-position: 175px 0;
+    padding-left: 22px;
+    display: flex;
+    align-items: center;
+    margin-top: 53px;
+}
+pre{
+    white-space: normal;
+    width: 1078px;
+}
+.sec-block{
+    width: 1651px;
+    height: 775px;
+    margin: auto;
+    background-image: url('img/bikeThr.png');
+}
+.main-sec{
+    width: 960px;
+    margin: auto;
+    height: 775px;
+    display: flex;
+    justify-content: center;
+}
+.title-sec{
+    margin-top: 25px;
+}
+.form{
+    margin-left: 100px;
+}
+.thrBlock{
+    width: 1651px;
+    margin: auto;
+    height: 1200px;
+}
+.main-thr{
+    width: 960px;
+    margin: auto;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec-title{
+    margin-top: -200px;
+}
+.thr-title-txt{
+    font-family: "Raleway - Black";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.85px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.thr-title{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+.bike-in-block-thr{
+    width: 940px;
+    height: 940px;
+    background-image: url('img/bikeWithGrid.png');
+    margin-top: 50px;
+}
+.bold{
+    font-family: "Raleway - Black";
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.right-zone-thr{
+    margin-left: 649px;
+    margin-top: 125px;
+}
+.thr-line{
+    margin-top: 155px;
+    margin-left: -20px;
+}
+.li-fst{
+    color: #000000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    list-style-image: url('img/circ.png');
+    padding-top: 10px;
+}
+.without-line{
+    margin-top: 113px;
+    margin-left: -20px;
+}
+.left-zone-thr{
+    margin-top: -668px;
+    margin-left: -55px;
+}
+.fou-line{
+    margin-top: 150px;
+}
+.fouBlock{
+    width: 1651px;
+    height: 570px;
+    margin: auto;
+    background-image: url('img/garage.png');
+}
+.main-fou{
+    width: 960px;
+    height: 570px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-fou-txt{
+    color: #ffffff;
+    font-family: "Raleway - Black";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.85px;
+    text-transform: uppercase;
+    margin-left: 18px;
+}
+.title-fou{
+    display: flex;
+    display: flex;
+    margin-left: 180px;
+    margin-top: -180px;
+}
+.sec-li{
+    list-style-image: url('img/circ.png');
+    color: white;
+    margin-top: 20px;
+}
+.ul{
+    margin-left: 153px;
+}
+.cifri{
+    width: 1651px;
+    height: 538px;
+    margin: auto;
+}
+.main-cifri{
+    width: 960px;
+    height: 538px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.cifri-title{
+    margin-top: 130px;
+    margin-left: 240px;
+}
+.num-colona{
+    width: 300px;
+    height: 81px;
+    border: 1px solid #000000;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 15px;
+}
+.nums{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+.rect-num-col{
+    width: 40px;
+    height: 61px;
+    background-image: url('img/rect-cifr.png');
+    color: #ffffff;
+    font-family: "Raleway - Black";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-right: 3px;
+}
+.NTC{
+    position: absolute;
+    margin-top: -61px;
+    margin-left: 41px;
+}
+.NTC1{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 100px !important;
+}
+.txt-num-colona{
+    font-family: "Raleway - Black";
+    font-size: 18px;
+    font-weight: 600;
+    width: 143px;
+    line-height: 18.51px;
+    margin-left: 20px;
+}
+.over-block-colona{
+    margin-top: 20px;
+    position: absolute;
+}
+.NTCC{
+    position: absolute;
+    margin-top: 80px;
+}
+.fifBlock{
+    width: 1651px;
+    margin: auto;
+    height: 642px;
+    /* background-image: url('img/workzon.png'); */
+}
+.main-fif{
+    margin: auto;
+    width: 960px;
+    height: 642px;
+    justify-content: center;
+}
+.title-fif{
+    display: flex;
+    padding-top: 75px;
+    margin-left: 180px;
+}
+.txt-title-fif{
+    color: #ffffff;
+    font-family: "Raleway - Black";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 33.85px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    
+}
+.txt-four-txts{
+    color: white;
+    display: flex;
+}
+.heart{
+    width: 95px;
+    height: 95px;
+    background-image: url('img/pulse.png');
+    margin-right: 10px;
+}
+.title-four-txts{
+    margin-bottom: 23px;
+    font-family: "Raleway - Black";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 38px;
+}
+.four-txts{
+    margin-top: 100px;
+}
+.block{
+    margin-top: -20px;
+}
+.top-line-fif{
+    display: flex;
+}
+.card{
+    width: 95px;
+    height: 95px;
+    background-image: url('img/card.png');
+    margin-right: 10px;
+    margin-left: 200px;
+}
+.bott-line-fif{
+    display: flex;
+    margin-top: 60px;
+}
+.clock{
+    width: 95px;
+    height: 95px;
+    background-image: url('img/clock.png');
+    margin-right: 10px;
+}
+.angry{
+    width: 95px;
+    height: 95px;
+    background-image: url('img/angry.png');
+    margin-right: 10px;
+    margin-left: 200px;
+}
+.form-last{
+    width: 1651px;
+    height: 1160px;
+}
+.fifBlockForm{
+    width: 1651px;
+    height: 1160px;
+    margin: auto;
+    background-image: url('img/bikeLast.png');
+}
+.form-fif{
+    width: 820px;
+    height: 405px;
+    background-color: #000821;
+    opacity: 0.65;
+    margin: auto;
+    margin-top: 20px;
+}
+.top-rec{
+    width: 200px;
+    height: 200px;
+    background-image: url('img/rect.png');
+    background-repeat: no-repeat;
+    border-left: 1px solid red;
+    border-top: 1px solid red;
+}
+.bot-rec{
+    width: 200px;
+    background-position: 180px 180px;
+    height: 200px;
+    background-image: url('img/rectAnother.png');
+    background-repeat: no-repeat;
+    border-right: 1px solid red;
+    margin-left: 615px;
+    border-bottom: 1px solid red;
+}
+.form-fif input[type="text"]{
+    width: 302px;
+    height: 46px;
+    border: 1px solid #616161;
+    background-color: #ffffff;
+    border-left: 3px solid red;
+    margin-bottom: 17px;
+}
+.form-fif form{
+    margin-top: -350px;
+    display: flex;
+    margin-left: 230px;
+    flex-direction: column;
+}
+.butt-last{
+    width: 310px;
+    height: 62px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: "Raleway - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 1;
+    background-image: url('img/bike-last-last.png');
+    background-repeat: no-repeat;
+    background-position: 190px 10px;
+    padding-left: 2px;
+}
+.title-form-fif{
+    color: #ffffff;
+    font-family: "Raleway - Black";
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: -270px;
+    line-height: 44.1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.foot{
+    width: 1651px;
+    height: 95px;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+.main-foot{
+    width: 960px;
+    height: 95px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.phone-foot{
+    margin-left: 25px;
+    font-family: "Raleway - Extra Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.copyright{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 38px;
+    margin-left: 75px;
+}
+.mail-foot{
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+    margin-left: 100px;
+}
+.facebook{
+    background-image: url('img/facebook.png');
+    width: 11px;
+    height: 20px;
+    margin-left: 15px;
+}
+.instagram{
+    background-image: url('img/instagram.png');
+    width: 23px;
+    height: 23px;
+    margin-left: 10px;
+}
+.zhelezo{
+    margin-top: 10px;
+}
+@media  (max-width: 440px){
+    body{
+        width: 440px;
+        height: 7520px;
+    }
+    .main-head{
+        width: 440px;
+        flex-direction: column;
+    }
+    .facebook{
+        margin-top: 45px;
+        margin-left: -290px;    
+    }
+    .instagram{
+        margin-top: 45px;
+    }
+    .mail-foot{
+        margin-top: 40px;
+    }
+    .mid-head{
+        text-align: center;
+    }
+    .phone-foot{
+    margin-left: 468px;
+    margin-top: -10px;
+    width: 105px;
+    position: absolute;
+    }
+    .topper-txt-head-left{
+        margin-left: 60px;
+    }
+    .txt-head-left{
+        text-align: center;
+    }
+    .button-top{
+        margin-left: 80px;
+    }
+    .bike{
+        top: 780px;
+        right: -140px;
+    }
+    .header{
+        height: 1200px;
+    }
+    .zhelezo{
+        margin-left: 50px;
+    }
+    .fst-block{
+        width: 440px;
+        margin: auto;
+        margin-left: 600px;
+        height: 1340px;
+        margin-top: 50px;
+    }
+    .main-fst{
+        width: 440px;
+    }
+    .three-photo{
+        flex-direction: column;
+    }
+    pre{
+        width: 428px;
+    }
+    .txtO{
+        margin-top: 0px;
+    }
+    .form{
+        margin-left: 290px;
+    }
+    .sec-column-form{
+        margin-top: 4px;
+        position: absolute;
+        margin-left: 0px;
+        }
+    .sec-block select{
+        width: 170px;
+        height: 30px;
+    }
+    .sec-block{
+        height: 850px;
+    }
+    .butt-form{
+        margin-top: 15px;
+    }
+    .sec-title{
+        margin-top: -310px;
+    }
+    .bike-in-block-thr{
+        background-image: url('img/withoutLine.png');
+        background-position: -300px;
+        height: 1000px;
+    }
+    .thr-title{
+        margin-top: -30px;
+    }
+    .right-zone-thr{
+        margin-left: -110px;
+    }
+    .left-zone-thr{
+        margin-left: -100px;
+    }
+    .top-line{
+        margin-top: -120px;
+    }
+    .sec-line{
+        padding-top: 680px;
+        margin-left: -40px;
+    }
+    .without-line{
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    .thr-line{
+        margin-top: 50px;
+        margin-left: -20px;
+    }
+    .fou-line{
+        margin-top: 0px;
+        margin-left: -42px;
+   }
+   .cifri-title{
+       margin-top: 280px;
+   }
+   .nums{
+       flex-direction: column;
+       padding-left: 230px;
+   }
+   .num-colona{
+       margin-bottom: 150px;
+   }
+   .over-block-colona{
+       width: 200px;
+   }
+   .cifri{
+       height: 800px;
+   }
+   .NTCC{
+       margin-top: 90px;
+   }
+   .fifBlock{
+       background-image: 0;
+   }
+   .ccard{
+    margin-top: 150px;
+    margin-left: -490px;
+   }
+   .fifBlockForm{
+       height: 1200px;
+   }
+   .four-txts{
+       margin-top: 30px;
+       margin-left: 250px;
+   }
+   .bot-rec{
+    margin-left: 545px;
+    margin-top: -30px;
+   }
+   .form-fif{
+    width: 750px;
+    height: 382px;
+    background-color: #000821;
+    opacity: 0.65;
+    margin: auto;
+    margin-top: 140px;
+   }
+}
