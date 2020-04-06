@@ -1,9 +1,21 @@
+@font-face{
+    font-family: Oswald; /* Имя шрифта */
+    src: url('fonts/Oswald-Stencil.ttf'); /* Путь к файлу со шрифтом */
+}
+@font-face{
+    font-family: Raleway-ExtraBold;
+    src: url('fonts/Raleway-ExtraBold.ttf')
+}
 body{
     margin: 0;
     overflow-x: hidden;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
 .header{
-    background-image: url(img/back.png);
+    background-image: url('img/back.png');
     height: 920px;
     margin: auto;
     background-repeat: no-repeat;
@@ -26,16 +38,19 @@ body{
 
 .moto4you{
     color: #ffffff;
-    font-family: "Oswald Stencil";
+    font-family: Oswald;
     font-size: 30px;
     font-weight: 700;
     line-height: 42.85px;
     letter-spacing: 1.4px;
     border-bottom: 1px solid red;
 }
+.button-top, .butt-form, .butt-last{
+    cursor: pointer;
+}
 .fromsw{
     color: #ffffff;
-    font-family: Roboto;
+    font-family: Oswald;
     font-size: 10px;
     font-weight: 700;
     display: block;
@@ -43,13 +58,15 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.4px;
     border-top: 1px solid red;
-    width: 187px;
+    width: 146px;
 }
-
+p{
+    font-family: Raleway;
+}
 
 .mail-top{
     color: white;
-    font-family:'Raleway', sans-serif;
+    font-family:'Raleway';
     font-size: 12px;
     font-weight: 400;
     margin-left: 20px;
@@ -115,7 +132,7 @@ body{
 }
 .top-right-head{
     color: #ffffff;
-    font-family: "Raleway - Extra Bold";
+    font-family: Raleway-ExtraBold;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
@@ -251,14 +268,6 @@ body{
     margin-top: 107px;
 }
 
-/* @media(max-width: 490px){
-    .main-head{
-        margin-right: 0px;
-    }
-    .main-head{
-        max-width: 490px;
-    }
-} */
 .sec-block{
     width: 1651px;
     margin: auto;
@@ -486,7 +495,7 @@ pre{
     flex-direction: column;
 }
 .cifri-title{
-    margin-top: 130px;
+    margin-top: -200px;
     margin-left: 240px;
 }
 .num-colona{
@@ -751,6 +760,47 @@ pre{
 .zhelezo{
     margin-top: 10px;
 }
+.menu{
+    height: 500px;
+    width: 42px;
+    position: fixed;
+    top: 90px;
+    right: 130px;
+}
+.block-1, .block-2, .block-3, .block-4, .block-5{
+    width: 42px;
+    height: 42px;
+    background-image: url('img/circ-menu.png');
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+.head-menu{
+    width: 42px;
+    height: 42px;
+    background-image: url('img/menu-home.png');
+}
+.line-menu{
+    height: 366px;
+    border-right: 3px solid red;
+    position: absolute;
+    margin-left: 19px;
+    z-index: -1;
+}
+.block-1:hover, .block-2:hover, .block-3:hover, .block-4:hover, .block-5:hover{
+    width: 42px;
+    height: 42px;
+    background-image: url('img/circ-menu-hov.png');
+    color: red;
+}
+.bike-menu{
+    width: 42px;
+    height: 42px;
+    background-image: url('img/menu-bike.png');
+    margin-top: 15px;
+}
 @media  (max-width: 440px){
     body{
         width: 440px;
@@ -773,6 +823,15 @@ pre{
     .mid-head{
         text-align: center;
     }
+    .block-1, .block-2, .block-3, .block-4, .block-5, .bike-menu, .line-menu{
+        display: none;
+    }
+    .menu{
+        right: 510px;
+    }
+    .head-menu{
+        background-image: url('img/menu-menu-ico.png');
+    }
     .phone-foot{
     margin-left: 468px;
     margin-top: -10px;
@@ -792,6 +851,7 @@ pre{
         top: 780px;
         right: -140px;
     }
+
     .header{
         height: 1200px;
     }
