@@ -6,9 +6,18 @@
     font-family: Raleway-ExtraBold;
     src: url('fonts/Raleway-ExtraBold.ttf')
 }
+@font-face{
+    font-family: Raleway;
+    src: url('fonts/Raleway-Regular.ttf');
+}
+@font-face{
+    font-family: DINPro-Black;
+    src: url('fonts/DINPro-Black.ttf');
+}
 body{
     margin: 0;
     overflow-x: hidden;
+    font-family: Raleway;
 }
 a{
     color: inherit;
@@ -35,7 +44,9 @@ a{
     border-top: 1px solid red;
     max-width: 960px;
 }
-
+.menu{
+    font-family: DiNPro-Black;
+}
 .moto4you{
     color: #ffffff;
     font-family: Oswald;
@@ -60,7 +71,7 @@ a{
     border-top: 1px solid red;
     width: 146px;
 }
-p{
+pre{
     font-family: Raleway;
 }
 
@@ -89,6 +100,9 @@ p{
     font-weight: 400;
     line-height: 65.64px;
     text-transform: uppercase;
+}
+.hover-block{
+    display: none;
 }
 .txt-head-left{
     color: #ffffff;
@@ -124,6 +138,24 @@ p{
     margin-top: -7px;
     font-weight: 400;
     line-height: 26px;
+}
+
+.block-1:hover .hover-block-1{
+    display: flex;
+}
+
+.hover-block-1, .hover-block-2, .hover-block-3, .hover-block-4, .hover-block-5{
+    display: none;
+    width: 67px;
+    height: 28px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 67.11px;
+    text-transform: uppercase;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    color: white;
 }
 .top-head{
     margin-top: 326px;
@@ -316,11 +348,27 @@ p{
     margin-left: 12px;
 }
 .sec-column-form{
-    margin-left: 350px;
+    margin-left: 400px;
     margin-top: -440px;
+}
+.fst-column-form{
+    margin-left: -50px;
+}
+
+.two-lines-centre{
+    width: 12px;
+    height: 425px;
+    border-right: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    position: absolute;
+    opacity: 0.2;
+    margin-top: -420px;
+    margin-left: 310px;
 }
 .text-class-moto{
     display: flex;
+    margin-top: -5px;
+    margin-left: 12px;
 }
 .white{
     color: #ffffff;
@@ -350,8 +398,7 @@ p{
     padding-left: 22px;
     display: flex;
     align-items: center;
-    margin-top: 53px;
-}
+    margin-top: 30px;}
 pre{
     white-space: normal;
     width: 1078px;
@@ -640,6 +687,7 @@ pre{
     height: 1160px;
     margin: auto;
     background-image: url('img/bikeLast.png');
+    background-position: -200px;
 }
 .form-fif{
     width: 820px;
@@ -851,12 +899,17 @@ pre{
         top: 780px;
         right: -140px;
     }
-
+    .two-lines-centre{
+        display: none;
+    }
     .header{
         height: 1200px;
     }
     .zhelezo{
         margin-left: 50px;
+    }
+    .sec-column-form{
+        margin-left: -60px !important;
     }
     .fst-block{
         width: 440px;
@@ -897,6 +950,12 @@ pre{
     }
     .sec-title{
         margin-top: -310px;
+    }
+    .sev-form-block{
+        margin-top: 0 !important;
+    }
+    .six-form-block{
+        margin-top: 0 !important;
     }
     .bike-in-block-thr{
         background-image: url('img/withoutLine.png');
