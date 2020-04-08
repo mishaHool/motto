@@ -23,6 +23,15 @@ body{
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
+.fif-form-block{
+    margin-top: 10px;
+}
+.sev-form-block{
+    margin-top: 30px !important;
+}
+.six-form-block{
+    margin-top: 25px !important;
+}
 .bold{
     font-family: Raleway-Black;
 }
@@ -32,6 +41,10 @@ body{
 .fifBlock{
     margin-top: -100px;
 }
+.butt-form{
+    margin-top: 18px !important;
+}
+
 .cifri{
     height: 470px;
 }
@@ -157,6 +170,8 @@ pre{
     margin-top: -7px;
     font-weight: 400;
     line-height: 26px;
+    position: absolute;
+    z-index: 1000;
 }
 .form-fif{
     opacity: 0.8;
@@ -195,7 +210,7 @@ pre{
     width: 791px;
     height: 483px;
     position: absolute;
-    z-index: 100000000000000000000;
+    z-index: 100;
     top: 549px;
     right: 93px;
 }
@@ -419,7 +434,8 @@ pre{
     padding-left: 22px;
     display: flex;
     align-items: center;
-    margin-top: 30px;}
+    margin-top: 30px;
+}
 pre{
     white-space: normal;
     width: 1078px;
