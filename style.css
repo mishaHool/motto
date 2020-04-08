@@ -14,14 +14,33 @@
     font-family: DINPro-Black;
     src: url('fonts/DINPro-Black.ttf');
 }
+@font-face{
+    font-family: Raleway-Black;
+    src: url('fonts/Raleway-Black.ttf');
+}
 body{
     margin: 0;
     overflow-x: hidden;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
+}
+.bold{
+    font-family: Raleway-Black;
+}
+.thr-line{
+    margin-top: 100px !important;
+}
+.fifBlock{
+    margin-top: -100px;
+}
+.cifri{
+    height: 470px;
 }
 a{
     color: inherit;
     text-decoration: none;
+}
+.sec-line{
+    margin-top: 60px;
 }
 .header{
     background-image: url('img/back.png');
@@ -139,9 +158,11 @@ pre{
     font-weight: 400;
     line-height: 26px;
 }
-
+.form-fif{
+    opacity: 0.8;
+}
 .block-1:hover .hover-block-1{
-    display: flex;
+    display: flex !important;
 }
 
 .hover-block-1, .hover-block-2, .hover-block-3, .hover-block-4, .hover-block-5{
