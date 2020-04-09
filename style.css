@@ -26,14 +26,17 @@ body{
 .fif-form-block{
     margin-top: 10px;
 }
-.sev-form-block{
-    margin-top: 30px !important;
-}
 .six-form-block{
     margin-top: 25px !important;
 }
+.sev-form-block{
+    margin-top: 20px !important;
+}
 .bold{
     font-family: Raleway-Black;
+}
+.thre-photo{
+
 }
 .thr-line{
     margin-top: 100px !important;
@@ -42,7 +45,7 @@ body{
     margin-top: -100px;
 }
 .butt-form{
-    margin-top: 18px !important;
+    margin-top: 20px !important;
 }
 
 .cifri{
@@ -63,6 +66,7 @@ a{
     width: 1651px;
     margin-top: -660px;
     background-color: rgba(0, 0, 0, 0.17);
+    margin-bottom: 140px;
 }
 .main-head{
     width: 960px;
@@ -211,8 +215,8 @@ pre{
     height: 483px;
     position: absolute;
     z-index: 100;
-    top: 549px;
-    right: 93px;
+    top: 600px;
+    right: 100px;
 }
 .mid-head{
     margin-top: 170px;
@@ -294,11 +298,15 @@ pre{
     line-height: 24px;
     margin-left: 43px;
 }
-.fst-photo{
+.thre-photo{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+.ntcf{
+    margin-left: 90px;
 }
 .sec-photo{
     display: flex;
@@ -419,6 +427,9 @@ pre{
     border: 1px solid #ffffff;
     background-color: #ffffff;
 }
+.fif-form-block{
+    margin-top: 15px;
+}
 .butt-form{
     color: #ffffff;
     font-family: "Raleway - Black";
@@ -434,7 +445,7 @@ pre{
     padding-left: 22px;
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 22px;
 }
 pre{
     white-space: normal;
@@ -752,13 +763,24 @@ pre{
     margin-left: 615px;
     border-bottom: 1px solid red;
 }
-.form-fif input[type="text"]{
+.fif-formm-block input[type="text"]{
     width: 302px;
     height: 46px;
     border: 1px solid #616161;
     background-color: #ffffff;
     border-left: 3px solid red;
     margin-bottom: 17px;
+}
+.fif-formm-block{
+    position: absolute;
+    z-index: 100;
+    margin-top: -350px;
+    margin-left: 660px;
+}
+#tel{
+    margin-top: 62px;
+    position: absolute;
+    margin-left: -306px;
 }
 .form-fif form{
     margin-top: -350px;
@@ -777,18 +799,18 @@ pre{
     font-size: 24px;
     font-weight: 400;
     line-height: 26px;
-    opacity: 1;
     background-image: url('img/bike-last-last.png');
     background-repeat: no-repeat;
     background-position: 190px 10px;
     padding-left: 2px;
+    margin-top: 60px;
 }
 .title-form-fif{
     color: #ffffff;
     font-family: "Raleway - Black";
     font-size: 36px;
     font-weight: 400;
-    margin-left: -270px;
+    margin-left: -10px;
     line-height: 44.1px;
     text-transform: uppercase;
     text-align: center;
@@ -953,7 +975,7 @@ pre{
         margin: auto;
         margin-left: 600px;
         height: 1340px;
-        margin-top: 50px;
+        margin-top: 140px;
     }
     .main-fst{
         width: 440px;
@@ -982,14 +1004,11 @@ pre{
     .sec-block{
         height: 850px;
     }
-    .butt-form{
-        margin-top: 15px;
-    }
     .sec-title{
         margin-top: -310px;
     }
     .sev-form-block{
-        margin-top: 0 !important;
+        margin-top: 20 !important;
     }
     .six-form-block{
         margin-top: 0 !important;
