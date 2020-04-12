@@ -35,9 +35,7 @@ body{
 .bold{
     font-family: Raleway-Black;
 }
-.thre-photo{
 
-}
 .thr-line{
     margin-top: 100px !important;
 }
@@ -59,8 +57,8 @@ a{
     margin-top: 60px;
 }
 .header{
-    background-image: url('img/back.png');
-    height: 920px;
+    background-image: url('img/backMask.png');
+    height: 904px;
     margin: auto;
     background-repeat: no-repeat;
     width: 1651px;
@@ -215,11 +213,11 @@ pre{
     height: 483px;
     position: absolute;
     z-index: 100;
-    top: 600px;
-    right: 100px;
+    top: 530px;
+    right: 80px;
 }
 .mid-head{
-    margin-top: 170px;
+    margin-top: 90px;
 }
  .numO{
     width: 61px;
