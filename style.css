@@ -238,7 +238,6 @@ pre{
     margin: auto;
     height: 900px;
     margin-top: 100px;
-    max-width: 490px;
 }
 .main-one{
     display: flex;
@@ -729,11 +728,11 @@ pre{
     height: 1160px;
 }
 .fifBlockForm{
-    width: 1651px;
+    width: 1751px;
     height: 1160px;
     margin: auto;
     background-image: url('img/bikeLast.png');
-    background-position: -200px;
+    background-position: -150px;
 }
 .form-fif{
     width: 820px;
