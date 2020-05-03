@@ -909,11 +909,12 @@ pre{
 @media  (max-width: 440px){
     body{
         width: 440px;
-        height: 7520px;
+        height: 7100px;
     }
     .main-head{
         width: 440px;
         flex-direction: column;
+        top: -200px;
     }
     .facebook{
         margin-top: 45px;
@@ -938,7 +939,7 @@ pre{
         background-image: url('img/menu-menu-ico.png');
     }
     .phone-foot{
-    margin-left: 468px;
+    margin-left: 590px;
     margin-top: -10px;
     width: 105px;
     position: absolute;
@@ -946,8 +947,17 @@ pre{
     .topper-txt-head-left{
         margin-left: 60px;
     }
+    .main-cifri{
+        height: 1050px;
+    }
+    .header{
+        margin-top: -470px;
+    }
     .txt-head-left{
         text-align: center;
+    }
+    .cifri-title{
+        margin-top: -950px !important;
     }
     .button-top{
         margin-left: 80px;
@@ -959,9 +969,6 @@ pre{
     .two-lines-centre{
         display: none;
     }
-    .header{
-        height: 1200px;
-    }
     .zhelezo{
         margin-left: 50px;
     }
@@ -972,7 +979,7 @@ pre{
         width: 440px;
         margin: auto;
         margin-left: 600px;
-        height: 1340px;
+        height: 1370px;
         margin-top: 140px;
     }
     .main-fst{
@@ -980,6 +987,21 @@ pre{
     }
     .three-photo{
         flex-direction: column;
+    }
+    .sec-block select{
+        margin-left: 15px;
+    }
+    .sec-block input[type="radio"]{
+        margin-left: 15px;
+    }
+    .sev-form-block{
+        margin-left: 15px;
+    }
+    .fif-form-block, .six-form-block{
+        margin-left: 15px;
+    }
+    .thrBlock{
+        height: 1240px;
     }
     pre{
         width: 428px;
@@ -1070,7 +1092,7 @@ pre{
    }
    .ccard{
     margin-top: 150px;
-    margin-left: -490px;
+    margin-left: -510px;
    }
    .fifBlockForm{
        height: 1200px;
@@ -1078,6 +1100,9 @@ pre{
    .four-txts{
        margin-top: 30px;
        margin-left: 250px;
+   }
+   .lgo-foot{
+       margin-left: 160px;
    }
    .bot-rec{
     margin-left: 545px;
