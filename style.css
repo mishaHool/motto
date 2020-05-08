@@ -914,11 +914,14 @@ pre{
     .main-head{
         width: 440px;
         flex-direction: column;
-        top: -200px;
+        top: -270px;
     }
     .facebook{
         margin-top: 45px;
         margin-left: -290px;    
+    }
+    .txtO pre{
+        text-align: center;
     }
     .instagram{
         margin-top: 45px;
@@ -938,6 +941,9 @@ pre{
     .head-menu{
         background-image: url('img/menu-menu-ico.png');
     }
+    .button-top{
+        margin-left: 100px !important;
+    }
     .phone-foot{
     margin-left: 590px;
     margin-top: -10px;
@@ -951,7 +957,7 @@ pre{
         height: 1050px;
     }
     .header{
-        margin-top: -470px;
+        margin-top: -360px;
     }
     .txt-head-left{
         text-align: center;
@@ -1001,7 +1007,7 @@ pre{
         margin-left: 15px;
     }
     .thrBlock{
-        height: 1240px;
+        height: 1300px;
     }
     pre{
         width: 428px;
@@ -1036,7 +1042,8 @@ pre{
     .bike-in-block-thr{
         background-image: url('img/withoutLine.png');
         background-position: -300px;
-        height: 1000px;
+        height: 1105px;
+        width: 442px;
     }
     .thr-title{
         margin-top: -30px;
@@ -1115,5 +1122,21 @@ pre{
     opacity: 0.65;
     margin: auto;
     margin-top: 140px;
+   }
+   .main-thr{
+    margin-top: 70px;
+   }
+   .txtON{
+    width: 490px;
+    margin-left: -20px;
+   }
+   .header{
+    width: 1750px !important;
+   }
+   .sec-block{
+       width: 1750px !important;
+   }
+   .fouBlock{
+       width: 1750px;
    }
 }
