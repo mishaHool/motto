@@ -1043,7 +1043,7 @@ pre{
         background-image: url('img/withoutLine.png');
         background-position: -300px;
         height: 1105px;
-        width: 442px;
+        width: 730px;
     }
     .thr-title{
         margin-top: -30px;
@@ -1092,7 +1092,7 @@ pre{
        height: 800px;
    }
    .NTCC{
-       margin-top: 90px;
+       margin-top: 110px;
    }
    .fifBlock{
        background-image: 0;
@@ -1137,6 +1137,9 @@ pre{
        width: 1750px !important;
    }
    .fouBlock{
+       width: 1750px;
+   }
+   .foot{
        width: 1750px;
    }
 }
